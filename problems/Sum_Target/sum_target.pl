@@ -5,3 +5,10 @@
 # Check if what is needed to meet the target exists in the hash.
 # If it is found, you are done.
 # Other wise add the next array valued to the hash and what is needed for that value to meet the target.
+
+#read input file
+#input file format
+# < target number >
+# < array value 0 >
+# .....
+# < array value n >
