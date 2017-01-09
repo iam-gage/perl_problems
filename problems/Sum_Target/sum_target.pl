@@ -12,3 +12,12 @@
 # < array value 0 >
 # .....
 # < array value n >
+
+sub read_input {
+   my $file_name = shift @_;
+   my $file_handle;
+   open ( $file_handle, '<' , $file_name ) or die "could not open the input file $file_name \n";
+   return <$file_handle> ;
+}
+
+my @data = read_input ( "input_file_sum_target_0.txt" );
